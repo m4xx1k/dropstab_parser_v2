@@ -240,6 +240,36 @@ const schema = new db.Schema({
     },
     largest_price_of_the_mining: {
         type: Number,
+    },
+    reddit_members: {
+        type: Number,
+    },
+    twitter_followers: {
+        type: Number,
+    },
+    gitHub_commits: {
+        type: Number,
+    },
+    gitHub_stars: {
+        type: Number,
+    },
+    gitHub_followers: {
+        type: Number,
+    },
+    gitHub_contributors: {
+        type: Number,
+    },
+    marketing_site: {
+        type: Number,
+    },
+    marketing_google: {
+        type: Number,
+    },
+    marketing_youtube: {
+        type: Number,
+    },
+    unnamed: {
+        type: Number,
     }
 
 })
